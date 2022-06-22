@@ -14,6 +14,8 @@
 
 感谢[@星星awa](https://space.bilibili.com/111933676)提供Safari适配思路
 
+##sim-phi-test2 ver by max3957 fixed by pigeonB
+
 ## 更新日志
 
 ### [1.4.19] - 2022.6.11
