@@ -10,6 +10,8 @@
 
 模拟器并不拥有官方素材(如音符贴图/打击音效/结算UI)的版权，如有侵权请联系模拟器作者下架相关内容。
 
+sim-phi-test2 ver by max3957 fixed by pigeonB
+
 感谢[@Mac-Fus](https://space.bilibili.com/319384496)提供虚拟机支持
 
 感谢[@星星awa](https://space.bilibili.com/111933676)提供Safari适配思路

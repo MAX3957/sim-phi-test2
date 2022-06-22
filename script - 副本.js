@@ -1670,13 +1670,13 @@ function qwqdraw1(now) {
 		ctxos.textBaseline = "alphabetic";
 		ctxos.font = `${lineScale * 1.1}px Saria,Noto Sans SC`;
 		const dxsnm = ctxos.measureText(inputName.value || inputName.placeholder).width;
-		if (dxsnm > canvasos.width - lineScale * 1.5) ctxos.font = `${(lineScale) * 1.1/dxsnm*(canvasos.width-lineScale*1.5)}px Saria,Source Han Sans CN`;
+		if (dxsnm > canvasos.width - lineScale * 1.5) ctxos.font = `${(lineScale) * 1.1/dxsnm*(canvasos.width-lineScale*1.5)}px Saria,Noto Sans SC`;
 		ctxos.fillText(inputName.value || inputName.placeholder, wlen, hlen * 0.75);
 		//曲绘和谱师
 		ctxos.textBaseline = "top";
 		ctxos.font = `${lineScale * 0.55}px Saria,Noto Sans SC`;
 		const dxi = ctxos.measureText(`Illustration designed by ${inputIllustrator.value || inputIllustrator.placeholder}`).width;
-		if (dxi > canvasos.width - lineScale * 1.5) ctxos.font = `${(lineScale) * 1.1/dxsnm*(canvasos.width-lineScale*1.5)}px Saria,Source Han Sans CN`;
+		if (dxi > canvasos.width - lineScale * 1.5) ctxos.font = `${(lineScale) * 0.55/dxi*(canvasos.width-lineScale*1.5)}px Saria,Noto Sans SC`;
 		ctxos.fillText(`Illustration designed by ${inputIllustrator.value || inputIllustrator.placeholder}`, wlen, hlen * 1.25 + lineScale * 0.15);
 		ctxos.font = `${lineScale * 0.55}px Saria,Noto Sans SC`;
 		const dxc = ctxos.measureText(`Level designed by ${inputDesigner.value || inputDesigner.placeholder}`).width;
