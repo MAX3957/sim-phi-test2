@@ -1,3 +1,50 @@
+@font-face {
+	font-family: 'sy';
+	src: url('sy.ttf') format('truetype');
+}
+
+/* mina-regular */
+@font-face {
+	font-family: 'Mina';
+	font-style: normal;
+	font-weight: regular;
+	/* IE9 Compat Modes */
+	src: url('//lib.baomitu.com/fonts/mina/mina-regular.eot');
+	src: local('Mina'), local('Mina-Normal'),
+		/* IE6-IE8 */
+		url('//lib.baomitu.com/fonts/mina/mina-regular.eot?#iefix') format('embedded-opentype'),
+		/* Super Modern Browsers */
+		url('//lib.baomitu.com/fonts/mina/mina-regular.woff2') format('woff2'),
+		/* Modern Browsers */
+		url('//lib.baomitu.com/fonts/mina/mina-regular.woff') format('woff'),
+		/* Safari, Android, iOS */
+		url('//lib.baomitu.com/fonts/mina/mina-regular.ttf') format('truetype'),
+		/* Legacy iOS */
+		url('//lib.baomitu.com/fonts/mina/mina-regular.svg#Mina') format('svg');
+}
+
+@import url("//fonts.loli.net/css?family=Mina");
+
+/* saira-regular */
+@font-face {
+	font-family: 'Saira';
+	font-style: normal;
+	font-weight: regular;
+	/* IE9 Compat Modes */
+	src: url('//lib.baomitu.com/fonts/saira/saira-regular.eot');
+	src: local('Saira'), local('Saira-Normal'),
+		/* IE6-IE8 */
+		url('//lib.baomitu.com/fonts/saira/saira-regular.eot?#iefix') format('embedded-opentype'),
+		/* Super Modern Browsers */
+		url('//lib.baomitu.com/fonts/saira/saira-regular.woff2') format('woff2'),
+		/* Modern Browsers */
+		url('//lib.baomitu.com/fonts/saira/saira-regular.woff') format('woff'),
+		/* Safari, Android, iOS */
+		url('//lib.baomitu.com/fonts/saira/saira-regular.ttf') format('truetype'),
+		/* Legacy iOS */
+		url('//lib.baomitu.com/fonts/saira/saira-regular.svg#Saira') format('svg');
+}
+
 @import url("//fonts.loli.net/css?family=Saira");
 
 ::-webkit-scrollbar {
